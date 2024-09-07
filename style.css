@@ -244,58 +244,42 @@
     text-shadow: 20px;
   }
   
-  /* 
-   * Media Queries para responsividade 
-   */
-  
-  /* Responsividade para tablets */
-  @media (max-width: 768px) {
+  /* Responsividade para telas menores */
+@media (max-width: 768px) {
     h1 {
-      font-size: 2rem; /* Tamanho da fonte em telas menores */
+      font-size: 3rem; /* Tamanho da fonte em telas menores */
       letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
     }
   
-    section input {
-      width: 25rem; /* Largura dos inputs em telas menores */
-      padding: 0.8rem; /* Espaçamento interno em telas menores */
+    .instrucao {
+      font-size: 1rem;
     }
   
-    .resultados-pesquisa {
-      width: 40rem; /* Largura da caixa de resultados em telas menores */
-      height: 40vh; /* Altura da caixa de resultados em telas menores */
+    .instrucao h3 {
+      font-size: 1.5rem;
     }
   
-    .item-resultado h2 {
-      font-size: 1.3rem; /* Tamanho da fonte dos títulos em telas menores */
-    }
-  }
-  
-  /* Responsividade para celulares */
-  @media (max-width: 480px) {
-    h1 {
-      font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
-      letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
+    .instrucao h4 {
+      font-size: 1rem;
     }
   
-    section input {
-      width: 17rem; /* Largura total dos inputs em telas pequenas */
+    .area_pesquisa {
+      flex-direction: column; /* Organiza os elementos em coluna */
     }
   
-    section button {
-      padding: 0.6rem 1rem; /* Espaçamento interno do botão em telas pequenas */
-      font-size: 0.9rem; /* Tamanho da fonte do botão em telas pequenas */
+    input {
+      margin-bottom: 10px; /* Adiciona espaço entre o input e o botão */
     }
   
-    .resultados-pesquisa {
-      width: 90%; /* Largura da caixa de resultados em telas pequenas */
-      height: 50vh; /* Altura da caixa de resultados em telas pequenas */
+    .item-resultado {
+      max-width: 100%; /* Os itens ocupam toda a largura disponível */
     }
   
     .item-resultado h2 {
-      font-size: 1.1rem; /* Tamanho da fonte dos títulos em telas pequenas */
+      font-size: 1.5rem; /* Tamanho da fonte dos títulos em telas menores JR */
     }
   
     footer {
-      font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
+      font-size: 0.8rem;
     }
   }
