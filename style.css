@@ -143,17 +143,14 @@
    */
   .item-resultado {
     background-color: rgba(240, 211, 211, 0.9); /* fundo com 90% de opacidade */
-    padding: 15px; /* Use padding para criar o espaço interno */
+    max-width: 250px; /* Largura máxima da caixa*/
+    height: auto;
     border-radius: 15px; /* Borda arredondada */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-width: 222px;
     text-align: center;
-    width: 460px; 
-    /* remove a altura fixa  */ 
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    
+    padding: 11px;
   }
   
   /* 
