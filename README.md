@@ -2,7 +2,7 @@
 
 ## Descrição do projeto
 
-Este projeto consiste em um site simples que permite aos usuários pesquisar informações sobre diferentes tipos de vinho. O site foi desenvolvido utilizando HTML, CSS e JavaScript.
+Este projeto consiste em um site interativo que permite aos usuários pesquisar informações detalhadas sobre diversos tipos de vinho, incluindo suas características, origens e harmonizações com pratos. O site foi desenvolvido utilizando as tecnologias web HTML, CSS e JavaScript.
 
 ## Funcionalidades
 
@@ -44,6 +44,6 @@ Este projeto consiste em um site simples que permite aos usuários pesquisar inf
 
 ## Licença
 
-- [MIT License](https://opensource.org/licenses/MIT) (ou outra licença de sua preferência)
+- [MIT License](https://opensource.org/licenses/MIT)
 
 - 
