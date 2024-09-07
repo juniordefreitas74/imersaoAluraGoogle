@@ -46,4 +46,3 @@ Este projeto consiste em um site interativo que permite aos usuários pesquisar 
 
 - [MIT License](https://opensource.org/licenses/MIT)
 
-- 
