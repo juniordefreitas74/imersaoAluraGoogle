@@ -1,32 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Vinhos</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Universo dos Vinhos</title>
 </head>
+
 <body>
-    <header>
-        <h1>Tipos de Vinho</h1>
-    </header>
-   
-    <main>
-       <div class="area_pesquisa">
-        <input type="text" placeholder="Digite o tipo de vinho, uva ou prato" id="campo-pesquisa">
-        <button onclick="pesquisar()">Pesquisar</button>
-       </div>
-    <div class="resultados-pesquisa"
-    id="resultados-pesquisa">
-               
+
+  <!-- Cabeçalho da página -->
+  <header>
+    <h1>Universo dos Vinhos</h1>
+  </header>
+
+  <!-- Conteúdo principal da página -->
+  <main>
+    <!-- Área de pesquisa -->
+    <div class="area_pesquisa">
+      <input type="text" placeholder="Digite o tipo de vinho ou uva que deseja" id="campo-pesquisa">
+      <button onclick="pesquisar()">Pesquisar</button>
     </div>
-    </main>
-    <footer>
-        <p>2024 - Tipos de Vinho. Todos o direitos reservados.   Entre em contato pelo e-mail: juniordefreitas1@gmail.com</p>
-        
-    </footer>
-    <script src="dados.js"></script>
-    <script src="app.js"></script>
+
+    <!-- Área de exibição dos resultados da pesquisa -->
+    <div class="resultados-pesquisa" id="resultados-pesquisa">
+    </div>
+
+    <!-- Seção de instruções -->
+    <div class="instrucao">
+      <h3>Desvende o Mundo dos Vinhos!</h3>
+      <h4>Explore nossa vasta seleção de vinhos e descubra o sabor perfeito para cada ocasião.</h4>
+      <h3>Busque por:</h3>
+      <h3>Nome do vinho:</h3>
+      <h4> Encontre informações detalhadas sobre seus vinhos favoritos, como Cabernet Sauvignon, Chardonnay, Pinot Noir e muito
+        mais.</h4>
+      <h3>Tipo de uva:</h3>
+      <h4>Aprenda sobre as características das uvas que compõem os vinhos, como Malbec, Merlot, Sauvignon Blanc e outras.
+      </h4>
+      <h3>Harmonização: </h3>
+      <h4>Descubra quais vinhos combinam melhor com seus pratos favoritos, desde carnes e massas até frutos do mar e
+        sobremesas.</h4>
+      <h3>Digite sua pesquisa no campo acima e comece sua jornada enogastronômica! 🍷</h3>
+      <h3>Dicas:</h3>
+      <h4>Seja específico na sua busca para obter resultados mais precisos. Divirta-se explorando o universo dos vinhos!
+      </h4>
+    </div>
+  </main>
+
+  <!-- Rodapé da página -->
+  <footer>
+    <p>2024 - Universo dos Vinhos. Todos o direitos reservados. Entre em contato pelo e-mail:
+      juniordefreitas1@gmail.com</p>
+  </footer>
+
+  <!-- Scripts JavaScript -->
+  <script src="dados.js"></script>
+  <script src="app.js"></script>
 
 </body>
+
 </html>
