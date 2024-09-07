@@ -279,6 +279,7 @@
     .item-resultado {
       max-width: 90%; /* Os itens ocupam toda a largura disponível */
       padding: 5px;
+      font-size: 1rem;
     }
   
     .item-resultado h2 {
