@@ -268,6 +268,7 @@
         align-items: center; /* Centraliza os itens horizontalmente */
         justify-content: center; /* Centraliza os itens verticalmente */
         padding: 30px 15px; /* Ajuste o padding para telas menores */
+        
       
     }
   
@@ -277,10 +278,11 @@
   
     .item-resultado {
       max-width: 90%; /* Os itens ocupam toda a largura disponível */
+      padding: 5px;
     }
   
     .item-resultado h2 {
-      font-size: 1.3rem; /* Tamanho da fonte dos títulos em telas menores JR2 */
+      font-size: 1rem; /* Tamanho da fonte dos títulos em telas menores JR2 */
     }
   
     footer {
