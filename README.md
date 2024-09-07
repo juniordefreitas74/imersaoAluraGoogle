@@ -1,5 +1,8 @@
 # Universo dos Vinhos
 
+## Link
+https://universo-dos-vinhos.vercel.app/
+
 ## Descrição do projeto
 
 Este projeto consiste em um site interativo que permite aos usuários pesquisar informações detalhadas sobre diversos tipos de vinho, incluindo suas características, origens e harmonizações com pratos. O site foi desenvolvido utilizando as tecnologias web HTML, CSS e JavaScript.
@@ -38,9 +41,22 @@ Este projeto consiste em um site interativo que permite aos usuários pesquisar 
 - Implementar filtros de pesquisa avançados (por exemplo, filtrar por país, região, preço, etc.).
 - Melhorar o design e a usabilidade do site.
 
+  ## Scrennshots
+  
+<div style="display: flex;">
+  <img src="imagens/prints/01.png" alt="Tela 01" width="200" style="margin-right: 10px;">
+  <img src="imagens/prints/02.png" alt="Tela 02" width="200" style="margin-right: 10px;">
+  <img src="imagens/prints/03.png" alt="Tela 03" width="200" style="margin-right: 10px;">
+  <img src="imagens/prints/04.png" alt="Tela 04" width="200" style="margin-right: 10px;">
+  <img src="imagens/prints/05.png" alt="Tela 05" width="200" style="margin-right: 10px;">
+  
+</div>
+
 ## Autor
 
 - Junior de Freitas
+## Contato
+- juniordefreitas1@gmail.com
 
 ## Licença
 
