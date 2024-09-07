@@ -73,7 +73,7 @@
     background-color: rgba(242, 174, 174, 0.8); /* Branco com 90% de opacidade */
     padding: 5px;
     border-radius: 15px;
-    position: absolute;
+    position: center;
     text-align: center;
     margin-left: 25%;
     width: 460px;
