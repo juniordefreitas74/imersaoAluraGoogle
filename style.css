@@ -276,11 +276,11 @@
     }
   
     .item-resultado {
-      max-width: 100%; /* Os itens ocupam toda a largura disponível */
+      max-width: 90%; /* Os itens ocupam toda a largura disponível */
     }
   
     .item-resultado h2 {
-      font-size: 1.5rem; /* Tamanho da fonte dos títulos em telas menores JR2 */
+      font-size: 1.3rem; /* Tamanho da fonte dos títulos em telas menores JR2 */
     }
   
     footer {
