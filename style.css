@@ -280,10 +280,12 @@
       max-width: 90%; /* Os itens ocupam toda a largura disponível */
       padding: 5px;
       font-size: 1rem;
+      
     }
   
     .item-resultado h2 {
       font-size: 1rem; /* Tamanho da fonte dos títulos em telas menores JR2 */
+      padding: 5px;
     }
   
     footer {
