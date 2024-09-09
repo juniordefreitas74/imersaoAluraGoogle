@@ -362,7 +362,7 @@
     }
 
     .resultados-pesquisa {
-        width: 70%; /* Ocupa 100% da largura da tela */
+        width: 85%; /* Ocupa 100% da largura da tela */
         flex-wrap: wrap; /* Permite que os itens quebrem a linha */
         justify-content: center; /* Centraliza os itens horizontalmente */
         
