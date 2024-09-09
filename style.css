@@ -72,12 +72,12 @@
    */
   .area_pesquisa {
     background-color: rgba(242, 174, 174, 0.683); /* Branco com 90% de opacidade */
-    padding: 5px;
+    padding: 10px 20px;
     border-radius: 15px;
     position: center;
     text-align: center;
     margin:auto;
-    width: 50%;
+    width: fit-content;
     height: 70px;
     display: flex; /* Transforma o footer em um container flexbox */
     justify-content: center; /* Centraliza o conteúdo verticalmente dentro do container flexbox */
@@ -278,15 +278,16 @@
         flex-direction: column; /* Organiza os elementos em coluna */
         align-items: center; /* Centraliza os itens horizontalmente */
         justify-content: center; /* Centraliza os itens verticalmente */
-        padding: 30px 15px; /* Ajuste o padding para telas menores */
+        padding: 10px 20px; /* Ajuste o padding para telas menores */
+        width:fit-content ;
         
       
     }
   
     input {
       margin-bottom: 10px; /* Adiciona espaço entre o input e o botão */
-      width: 200px;
-      padding: 5px 5px;
+      width: 150px;
+      padding: 10px;
       font-size: xx-small;
     }
 
@@ -347,8 +348,8 @@
         flex-direction: column; /* Organiza os elementos em coluna */
         align-items: center; /* Centraliza os itens horizontalmente */
         justify-content: center; /* Centraliza os itens verticalmente */
-        padding:25px; /* Ajuste o padding para telas menores */
-        width: 300px;
+        padding:25px 20px; /* Ajuste o padding para telas menores */
+        width: fit-content;
         
       
     }
