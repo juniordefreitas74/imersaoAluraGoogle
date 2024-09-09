@@ -347,14 +347,15 @@
         flex-direction: column; /* Organiza os elementos em coluna */
         align-items: center; /* Centraliza os itens horizontalmente */
         justify-content: center; /* Centraliza os itens verticalmente */
-        padding: 30px 15px; /* Ajuste o padding para telas menores */
+        padding:25px; /* Ajuste o padding para telas menores */
+        width: 300px;
         
       
     }
   
     input {
       font-size: xx-small;
-      padding: 5px;
+      padding: 10px;
       margin-bottom: 10px; /* Adiciona espaço entre o input e o botão */
     }
 
@@ -362,7 +363,7 @@
         width: 70%; /* Ocupa 100% da largura da tela */
         flex-wrap: wrap; /* Permite que os itens quebrem a linha */
         justify-content: center; /* Centraliza os itens horizontalmente */
-        padding: 16%;
+        
         
       }
   
