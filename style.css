@@ -22,7 +22,7 @@
    * Estiliza os títulos h1 
    */
   h1 {
-    font-size: 7cqi; /* Tamanho da fonte */
+    font-size:300%; /* Tamanho da fonte */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /*estilo de fontes*/
     color: #eb9f9f; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
@@ -40,7 +40,7 @@
     text-align: justify;
     border-radius: 15px;
     width: 50%; /* Defina a largura desejada para a div */
-    margin: 0 auto; /* Define margens superior e inferior como 0 e margens esquerda e direita como "auto" para centralizar horizontalmente */
+    margin:auto; /* Define margens superior e inferior como 0 e margens esquerda e direita como "auto" para centralizar horizontalmente */
   }
   
   /* 
@@ -48,7 +48,7 @@
    */
   .instrucao h3 {
     text-align: center;
-    color: #ff8c8c;
+    color: #fe5858;
     font-family: 'Times New Roman', Times, serif;
     font-size:x-large;
     font-style: normal;
@@ -71,12 +71,12 @@
    * Estilizando o container da busca 
    */
   .area_pesquisa {
-    background-color: rgba(242, 174, 174, 0.8); /* Branco com 90% de opacidade */
+    background-color: rgba(242, 174, 174, 0.683); /* Branco com 90% de opacidade */
     padding: 5px;
     border-radius: 15px;
     position: center;
     text-align: center;
-    margin-left: 25%;
+    margin:auto;
     width: 50%;
     height: 70px;
     display: flex; /* Transforma o footer em um container flexbox */
@@ -90,13 +90,14 @@
   input {
     width: 300px;
     padding: 10px;
-    font-size: 16px;
+    font-size: xx-small;
     border: 2px solid #4a0e0e;
     border-radius: 10px;
     margin-right: 5px;
     margin-left: 0px;
     outline: none;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    
   }
   
   /* 
@@ -118,7 +119,7 @@
    * Adiciona efeito hover ao botão de pesquisa 
    */
   button:hover {
-    background-color: #f09595; /* Muda a cor de fundo ao passar o mouse */
+    background-color: #f3b1b1; /* Muda a cor de fundo ao passar o mouse */
     color: #6e0606;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
     transform: scale(1.05);
@@ -253,8 +254,8 @@
   /* Responsividade para telas menores */
 @media (max-width: 768px) {
     h1 {
-      font-size: 3rem; /* Tamanho da fonte em telas menores */
-      letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
+      font-size: 10%; /* Tamanho da fonte em telas menores */
+      letter-spacing: 0.5rem; /* Espaçamento entre letras em telas menores */
     }
     h2 {
         word-wrap:break-word;
@@ -284,10 +285,13 @@
   
     input {
       margin-bottom: 10px; /* Adiciona espaço entre o input e o botão */
+      width: auto;
+      padding: 5px 5px;
+      font-size: xx-small;
     }
 
     .resultados-pesquisa {
-        width: 100%; /* Ocupa 100% da largura da tela */
+        width: 200%; /* Ocupa 100% da largura da tela */
         flex-wrap: wrap; /* Permite que os itens quebrem a linha */
         justify-content: center; /* Centraliza os itens horizontalmente */
       }
@@ -311,8 +315,15 @@
 
    /* Responsividade para telas menores */
 @media (max-width: 1221px) {
+    body {
+      background-repeat: no-repeat; /* Impede que a imagem se repita */
+      background-size: cover; /* Escala a imagem para cobrir toda a área */
+      background-attachment: fixed; /* Fixa a imagem de fundo */
+    }
+
+
     h1 {
-      font-size: 3rem; /* Tamanho da fonte em telas menores */
+      font-size: 250%; /* Tamanho da fonte em telas menores */
       letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
     }
     h2 {
@@ -342,6 +353,8 @@
     }
   
     input {
+      font-size: xx-small;
+      padding: 5px;
       margin-bottom: 10px; /* Adiciona espaço entre o input e o botão */
     }
 
@@ -350,6 +363,7 @@
         flex-wrap: wrap; /* Permite que os itens quebrem a linha */
         justify-content: center; /* Centraliza os itens horizontalmente */
         padding: 16%;
+        
       }
   
     .item-resultado {
