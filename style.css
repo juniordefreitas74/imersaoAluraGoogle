@@ -350,6 +350,7 @@
         justify-content: center; /* Centraliza os itens verticalmente */
         padding:25px 20px; /* Ajuste o padding para telas menores */
         width: fit-content;
+        margin: auto;
         
       
     }
