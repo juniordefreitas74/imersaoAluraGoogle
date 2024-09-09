@@ -22,13 +22,13 @@
    * Estiliza os títulos h1 
    */
   h1 {
-    font-size: 60px; /* Tamanho da fonte */
+    font-size: 7cqi; /* Tamanho da fonte */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /*estilo de fontes*/
     color: #eb9f9f; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0);
-    letter-spacing: 0.4rem; /* Espaçamento entre letras */
-    width: fit-content;
+    letter-spacing: 0.2rem; /* Espaçamento entre letras */
+    
   }
   
   /* 
@@ -39,7 +39,7 @@
     padding: 15px;
     text-align: justify;
     border-radius: 15px;
-    width: 44%; /* Defina a largura desejada para a div */
+    width: 50%; /* Defina a largura desejada para a div */
     margin: 0 auto; /* Define margens superior e inferior como 0 e margens esquerda e direita como "auto" para centralizar horizontalmente */
   }
   
@@ -48,9 +48,9 @@
    */
   .instrucao h3 {
     text-align: center;
-    color: #f28181;
+    color: #ff8c8c;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size:x-large;
     font-style: normal;
     -webkit-text-stroke: 0.5px rgb(0, 0, 0); /* Contorno para WebKit (Chrome, Safari) */
   }
@@ -61,6 +61,7 @@
   .instrucao h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
+    font-size: small;
     text-align: center;
     color: #f7bcbc;
     margin-bottom: 5px;
@@ -76,7 +77,7 @@
     position: center;
     text-align: center;
     margin-left: 25%;
-    width: 460px;
+    width: 50%;
     height: 70px;
     display: flex; /* Transforma o footer em um container flexbox */
     justify-content: center; /* Centraliza o conteúdo verticalmente dentro do container flexbox */
@@ -251,6 +252,65 @@
   
   /* Responsividade para telas menores */
 @media (max-width: 768px) {
+    h1 {
+      font-size: 3rem; /* Tamanho da fonte em telas menores */
+      letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
+    }
+    h2 {
+        word-wrap:break-word;
+        overflow: hidden;
+    }
+  
+    .instrucao {
+      font-size:small;
+    }
+  
+    .instrucao h3 {
+      font-size:small;
+    }
+  
+    .instrucao h4 {
+      font-size: small;
+    }
+  
+    .area_pesquisa {
+        flex-direction: column; /* Organiza os elementos em coluna */
+        align-items: center; /* Centraliza os itens horizontalmente */
+        justify-content: center; /* Centraliza os itens verticalmente */
+        padding: 30px 15px; /* Ajuste o padding para telas menores */
+        
+      
+    }
+  
+    input {
+      margin-bottom: 10px; /* Adiciona espaço entre o input e o botão */
+    }
+
+    .resultados-pesquisa {
+        width: 100%; /* Ocupa 100% da largura da tela */
+        flex-wrap: wrap; /* Permite que os itens quebrem a linha */
+        justify-content: center; /* Centraliza os itens horizontalmente */
+      }
+  
+    .item-resultado {
+        width: 100%; /* Ocupa 100% da largura da tela */
+        box-sizing: border-box; /* Inclui padding e border na largura */
+        flex-wrap: wrap;
+        padding: 15px;
+        font-size: small;
+        
+      
+    }
+  
+    
+  
+    footer {
+      font-size: 0.8rem;
+    }
+  }
+
+   /* Responsividade para telas menores */
+@media (max-width: 1221px) {
     h1 {
       font-size: 3rem; /* Tamanho da fonte em telas menores */
       letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
