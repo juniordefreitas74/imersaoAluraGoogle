@@ -177,6 +177,7 @@
     font-style: italic; /* Cor do texto */
     text-align: center;
     color: #bd0202;
+    flex-wrap: wrap;
   }
   
   /* 
@@ -187,6 +188,7 @@
     color: #bd0202; /* Cor do texto dos links */
     text-align: center;
     font-size: small;
+    flex-wrap: wrap;
   }
   
   /* 
@@ -293,7 +295,7 @@
         width: 100%; /* Ocupa 100% da largura da tela */
         box-sizing: border-box; /* Inclui padding e border na largura */
         flex-wrap: wrap;
-        padding: 5px;
+        padding: 15px;
         font-size: small;
         
       
