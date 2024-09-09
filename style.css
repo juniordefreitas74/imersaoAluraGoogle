@@ -88,7 +88,7 @@
    * Estilizando o input de busca 
    */
   input {
-    width: 300px;
+    width: auto;
     padding: 10px;
     font-size: xx-small;
     border: 2px solid #4a0e0e;
