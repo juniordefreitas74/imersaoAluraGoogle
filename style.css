@@ -279,14 +279,19 @@
     input {
       margin-bottom: 10px; /* Adiciona espaço entre o input e o botão */
     }
+
+    .resultados-pesquisa {
+        width: 100%; /* Ocupa 100% da largura da tela */
+        flex-wrap: wrap; /* Permite que os itens quebrem a linha */
+        justify-content: center; /* Centraliza os itens horizontalmente */
+      }
   
     .item-resultado {
-        max-width: 100%;
-        padding: 5px;
-        font-size: 1rem;
-        width: 100%; /* Ocupa toda a largura da tela */
+        width: 100%; /* Ocupa 100% da largura da tela */
         box-sizing: border-box; /* Inclui padding e border na largura */
         flex-wrap: wrap;
+        padding: 5px;
+        font-size: 1rem;
         
       
     }
