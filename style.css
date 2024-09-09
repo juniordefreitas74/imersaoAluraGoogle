@@ -360,9 +360,15 @@
     }
 
     .resultados-pesquisa {
-        width: 70%; /* Ocupa 100% da largura da tela */
-        flex-wrap: wrap; /* Permite que os itens quebrem a linha */
-        justify-content: center; /* Centraliza os itens horizontalmente */
+      width: 80%; /* Largura máxima da caixa de resultados */
+      height: auto; /* Altura máxima da caixa de resultados */
+      overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+      padding: 10%; /* Espaçamento interno */
+      border-radius: 15px; /* Borda arredondada */
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around; /* Distribui os itens com espaço entre eles */
+      gap: 20px;
         
         
       }
