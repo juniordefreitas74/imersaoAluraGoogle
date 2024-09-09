@@ -346,9 +346,10 @@
     }
 
     .resultados-pesquisa {
-        width: 100%; /* Ocupa 100% da largura da tela */
+        width: 70%; /* Ocupa 100% da largura da tela */
         flex-wrap: wrap; /* Permite que os itens quebrem a linha */
         justify-content: center; /* Centraliza os itens horizontalmente */
+        padding: 16%;
       }
   
     .item-resultado {
@@ -367,3 +368,6 @@
       font-size: 0.8rem;
     }
   }
+
+
+  
