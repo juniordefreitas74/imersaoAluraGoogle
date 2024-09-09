@@ -172,10 +172,11 @@
    * Estiliza os títulos dentro dos itens de resultado 
    */
   .item-resultado h2 {
-    font-size: 32px; /* Tamanho da fonte */
+    font-size:x-large; /* Tamanho da fonte */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic; /* Cor do texto */
     text-align: center;
+    color: #bd0202;
   }
   
   /* 
@@ -185,6 +186,7 @@
     text-decoration: underline; /* Remove o sublinhado padrão dos links */
     color: #bd0202; /* Cor do texto dos links */
     text-align: center;
+    font-size: small;
   }
   
   /* 
@@ -194,6 +196,7 @@
     text-decoration: none; /* Remove o sublinhado padrão dos links */
     color: #4d0404; /* Cor do texto dos links */
     text-align: center;
+    font-size: small;
   }
   
   /* 
@@ -256,15 +259,15 @@
     }
   
     .instrucao {
-      font-size: 1rem;
+      font-size:small;
     }
   
     .instrucao h3 {
-      font-size: 1.5rem;
+      font-size:small;
     }
   
     .instrucao h4 {
-      font-size: 1rem;
+      font-size: small;
     }
   
     .area_pesquisa {
@@ -291,7 +294,7 @@
         box-sizing: border-box; /* Inclui padding e border na largura */
         flex-wrap: wrap;
         padding: 5px;
-        font-size: 1rem;
+        font-size: small;
         
       
     }

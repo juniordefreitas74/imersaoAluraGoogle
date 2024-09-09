@@ -43,7 +43,7 @@ function pesquisar() {
         resultados += `
               <div class="item-resultado">
                   <img src="${dado.imagem}" alt="${dado.nome}"> 
-                  <h2><a href="${dado.link}" target="_blank"> ${dado.nome} </a></h2> 
+                  <h2 href="${dado.link}" target="_blank"> ${dado.nome} </h2> 
                   <p class="descricao-meta"><strong> Tipo: </strong> ${dado.tipo}</p>
                   <p class="descricao-meta"> <strong> Descrição: </strong> ${dado.descricao}</p>
                   <p class="descricao-meta"><strong> Harmonização: </strong> ${dado.harmonizacao}</p>
